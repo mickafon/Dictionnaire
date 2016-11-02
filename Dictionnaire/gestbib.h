@@ -28,6 +28,9 @@ int LinkedListLenght(LinkedList* liste);
 
 //Mickael
 
+void launcher();
+void menu();
+int checkWord(Dictionary* _Dictionary, char* word);
 
 //Ludwig
 
