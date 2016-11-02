@@ -16,6 +16,7 @@ typedef struct Dictionary Dictionary;
 
 //Aimée
 LinkedList* addElement(LinkedList* liste, char* newValue);
+Dictionary* readFile(char* filepath, int isDictionary);
 LinkedList* readFile_Dictionary(char* filepath);
 LinkedList* readFile_Text(char* filepath);
 LinkedList* split_str(LinkedList* liste, char* str, char* delimiter);
@@ -27,7 +28,6 @@ int order_word(char* str1, char* str2);
 int LinkedListLenght(LinkedList* liste);
 
 //Mickael
-
 void launcher();
 void menu();
 int checkWord(Dictionary* _Dictionary, char* word);
