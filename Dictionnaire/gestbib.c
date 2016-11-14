@@ -4,6 +4,8 @@
 
 #include "gestbib.h"
 
+/* PARTIE 1 : CREATION ET GESTION DU DICTIONNAIRE */
+
 //Read File
 Dictionary* readFile(char* filepath, int isDictionary)
 {
@@ -311,7 +313,9 @@ int menu(){
         printf("Selectionner un choix : ");
         scanf("%d", &choix);
     }
+
     system("cls");
+
     return choix;
 }
 
