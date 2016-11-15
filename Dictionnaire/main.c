@@ -9,22 +9,23 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+<<<<<<< HEAD
 #include "function.c"
+=======
+#include "gestbib.h"
+>>>>>>> master
 
 int main(){
-    Dictionary dico;
-    dico.filepath = "C:/Users/Micka/Desktop/dico.txt";
-    char test[] = "test";
-    if(checkWord(&dico, test) == -1){
-        printf("eee");
-    } else{
-        printf("nop");
-    }
+
+<<<<<<< HEAD
+
+
+
+
+
+=======
+    printf("Hello World !");
+
     return 0;
 }
-
-
-
-
-
-
+>>>>>>> master
