@@ -95,6 +95,16 @@ LinkedList section_sw(char* word, LinkedList* liste){
     }
 }
 
+LinkedList a0ton(char a, char x, LinkedList* liste){
+    LinkedList* result = malloc(sizeof(LinkedList));
+    if((caraList(liste, strlen(liste->value) - 2) == ' ' || caraList(liste, strlen(liste->value) - 2) == '\t' ||
+        caraList(liste, strlen(liste->value) - 2) == '\n' || caraList(liste, strlen(liste->value) - 2) == '\r' ||
+        caraList(liste, strlen(liste->value) - 2) == '.') && ((caraList(liste, strlen(liste->value) - 1)) >= 65 && caraList(liste, strlen(liste->value) - 1) <= 90) ||
+       (caraList(liste, strlen(liste->value) - 1) >= 97 && caraList(liste, strlen(liste->value) - 1)) >= 122){
+        result = addElement(result, liste->value);
+    }
+}
+
 void search(){
     //LinkedList* liste = dfdfs
 }
