@@ -3,3 +3,44 @@
 	<stdio.h>
 	<stdlib.h>
 
+1479154501 source:d:\mesprojets\githubprojets\dictionnaire\dictionnaire\gestbib.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"gestbib.h"
+
+1479154509 d:\mesprojets\githubprojets\dictionnaire\dictionnaire\gestbib.h
+
+1479154201 source:d:\mesprojets\githubprojets\dictionnaire\dictionnaire\gestexpr.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"gestexpr.h"
+
+1479154269 d:\mesprojets\githubprojets\dictionnaire\dictionnaire\gestexpr.h
+
+1479154163 source:d:\mesprojets\githubprojets\dictionnaire\dictionnaire\gestorth.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"gestorth.h"
+
+1479154267 d:\mesprojets\githubprojets\dictionnaire\dictionnaire\gestorth.h
+
+1479155221 source:d:\mesprojets\githubprojets\dictionnaire\dictionnaire\main.c
+	<stdio.h>
+	<stdlib.h>
+	"gestbib.h"
+	"gestrech.h"
+	"gestorth.h"
+	"gestexpr.h"
+
+1479156103 d:\mesprojets\githubprojets\dictionnaire\dictionnaire\gestrech.h
+
+1479156086 source:d:\mesprojets\githubprojets\dictionnaire\dictionnaire\gestrech.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"gestbib.h"
+	"gestrech.h"
+

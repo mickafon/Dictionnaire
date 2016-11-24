@@ -29,9 +29,12 @@ int LinkedListLenght(LinkedList* liste);
 
 //Mickael
 void launcher();
-void menu();
+int menu();
 int checkWord(Dictionary* _Dictionary, char* word);
+void deleteFile(Dictionary* _Dictionary);
 
 //Ludwig
+
+
 
 #endif // GESTBIB_H_INCLUDED
