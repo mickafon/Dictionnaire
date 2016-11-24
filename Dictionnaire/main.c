@@ -26,5 +26,6 @@ int main(){
     liste_mot = findSimilarWord(dico_liste, "ENANAS", 5);
     displayLinkedList(liste_mot);
 
+    printf("Hello World !");
     return 0;
 }

@@ -257,7 +257,7 @@ LinkedList* split_str(LinkedList* liste, char* str, char* delimiter)
 }
 
 int checkWord(Dictionary* _Dictionary, char* word){
-    FILE* f = fopen(_Dictionary->filepath, "r+");
+    FILE* f = fopen(_Dictionary->filepath, "r");
     int i = 0;
     char carac;
     if(f != NULL){
@@ -273,9 +273,22 @@ int checkWord(Dictionary* _Dictionary, char* word){
         }
         fclose(f);
     } else{
-        printf("Impossiblie d'ouvrir le fichier %s", _Dictionary->filepath);
+        printf("Impossiblie d'ouvrir le fichier %s \n", _Dictionary->filepath);
     }
     return 0;
+}
+
+void deleteFile(Dictionary* _Dictionary){
+    FILE* f = fopen(_Dictionary->filepath, "r");
+    int i = 0;
+    char carac;
+    if(f != NULL){
+        fclose(f);
+        remove(_Dictionary->filepath);
+        printf("Le dictionnaire a ete supprime \n");
+    } else{
+        printf("Le fichier %s est introuvable \n", _Dictionary->filepath);
+    }
 }
 
 //Afficher

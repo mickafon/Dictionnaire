@@ -31,6 +31,7 @@ int LinkedListLenght(LinkedList* liste);
 void launcher();
 int menu();
 int checkWord(Dictionary* _Dictionary, char* word);
+void deleteFile(Dictionary* _Dictionary);
 
 //Ludwig
 
