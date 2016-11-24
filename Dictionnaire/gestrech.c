@@ -4,6 +4,7 @@
 
 #include "gestbib.h"
 #include "gestrech.h"
+//FUCK LE C
 
 /* PARTIE 2 : RECHERCHE AVANCEE */
 LinkedList* SpecificListToSimpleList(SpecificLinkedList* SpecificListe)
