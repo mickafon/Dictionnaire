@@ -1,4 +1,11 @@
 bonjour
 Ananas
 PataTE
+<<<<<<< HEAD
 alPHabet
+=======
+alPHabet
+Bnanas
+Cnanas
+Dnanas
+>>>>>>> aimee-elks
